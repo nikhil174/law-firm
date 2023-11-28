@@ -1,0 +1,47 @@
+.navbar-container {
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--css-black);
+    width: 82.5%;
+    left: 155px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    flex: 1.8;
+}
+
+.navbar-links {
+    flex : 3;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-link {
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: inherit;
+}
+
+.navbar-contact {
+    min-width: 200px;
+    flex: 1;
+}
+
+.navbar-contact-btn {
+    padding: 8px 16px;
+    background-color: var(--css-black);
+    color: var(--css-white);
+    text-decoration: none;
+    border : 2px solid var(--css-white);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 36px;
+    align-self: flex-end;
+}

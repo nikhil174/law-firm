@@ -1,8 +1,12 @@
+import HeroSection from "./components/HeroSection/HeroSection.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
+
 function App() {
   return (
-    <div className="App">
-      App
-    </div>
+    <>
+      <Navbar />
+      <HeroSection />
+    </>
   );
 }
 
