@@ -1,0 +1,24 @@
+.footer__section {
+    padding-top: 121px;
+    padding-bottom: 99px;
+}
+
+.general__texts {
+    width: 76%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.general__texts p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.general__text {
+    text-decoration: none;
+    color: var(--css-white);
+}

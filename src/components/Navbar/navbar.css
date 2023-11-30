@@ -1,11 +1,9 @@
 .navbar-container {
-    position: fixed;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     background-color: var(--css-black);
-    width: 82.5%;
-    left: 155px;
+    width: 76%;
     margin: auto;
     margin-top: 50px;
 }
@@ -21,6 +19,12 @@
     justify-content: flex-start;
 }
 
+.navbar__footer {
+    flex: 6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .navbar-link {
     margin-right: 25px;
     text-decoration: none;
@@ -32,6 +36,8 @@
 .navbar-contact {
     min-width: 200px;
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navbar-contact-btn {
@@ -44,4 +50,11 @@
     font-weight: 600;
     padding: 14px 36px;
     align-self: flex-end;
+}
+
+.social__links {
+    flex: 1.8;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
 }

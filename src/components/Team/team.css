@@ -1,0 +1,83 @@
+.team__section {
+    width: 76%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__title p {
+    font-size: 54px;
+    line-height: 143.02%;
+    font-weight: 600;
+    margin-bottom: 104px;
+}
+
+.team__container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 4fr 4fr 4fr;
+    row-gap: 26px;
+}
+
+.first_col {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mid_col {
+    display: flex;
+    justify-content: center;
+}
+
+.last_col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.team__member_cell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 109px;
+    width: 344px;
+}
+
+.last_col>.team__member_cell {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mid_col>.team__member_cell {
+   padding: 12px;
+}
+
+.team__member_detail {
+    width: 119px;
+}
+
+.team__member_detail h5 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.team__member_detail p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Inter;
+    color: #fff;
+    opacity: 0.3;
+}
+.team__member_selected {
+    border-radius: 14px;
+    background-color: #e3b748;
+}
+
+.team__member_selected p, .team__member_selected h5 {
+    color: var(--css-black);
+}

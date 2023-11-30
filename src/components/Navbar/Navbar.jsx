@@ -1,22 +1,35 @@
 import React from 'react'
 import './navbar.css'
 
-const Navbar = () => {
+const Navbar = ({ footer }) => {
     return (
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="navbar-brand">
                     <img src="brandName.png" alt="brand logo" />
                 </div>
-                <div className="navbar-links">
+                <div className={`${footer ? 'navbar__footer' : 'navbar-links'}`}>
                     <a href="#" className="navbar-link">Home</a>
                     <a href="#" className="navbar-link">Attorneys</a>
                     <a href="#" className="navbar-link">Practice Areas</a>
                     <a href="#" className="navbar-link">About Us</a>
                 </div>
-                <div className="navbar-contact">
+                {footer ? (<div className='social__links'>
+                    <a href="#" className="social__link_icon">
+                        <img src="instagram.png" alt="" />
+                    </a>
+                    <a href="#" className="social__link_icon">
+                        <img src="facebook.png" alt="" />
+                    </a>
+                    <a href="#" className="social__link_icon">
+                        <img src="twitter.png" alt="" />
+                    </a>
+                    <a href="#" className="social__link_icon">
+                        <img src="pinterest.png" alt="" />
+                    </a>
+                </div>) : (<div className="navbar-contact">
                     <button className="navbar-contact-btn">Contact Now</button>
-                </div>
+                </div>)}
             </div>
         </nav>
     )

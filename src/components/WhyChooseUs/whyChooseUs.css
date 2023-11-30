@@ -1,0 +1,22 @@
+.wcu__section {
+    width: 76%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.wcu__title {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+    margin-bottom: 125px;
+}
+.wcu__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

@@ -1,8 +1,7 @@
 .hero__section {
-    width: 80%;
+    width: 76%;
     height: 100vh;
     margin: auto;
-    padding-top: 108px;
     display: flex;
     align-items: center;
 }
@@ -18,7 +17,7 @@
 
 .hero__input {
     border-radius: 43px;
-    background-color: #1a1a1a;
+    background-color: var(--css-bg);
     width: 438px;
     height: 74px;
     display: flex;
@@ -41,7 +40,7 @@
 
 .hero__input input {
     border: none;
-    background-color: #1a1a1a;
+    background-color: var(--css-bg);
 }
 .hero__input img {
     opacity: 0.1;

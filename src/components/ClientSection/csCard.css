@@ -1,0 +1,45 @@
+.csCard {
+    border-radius: 14px;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    width: 362px;
+    height: 371px;
+    padding: 26px;
+    padding-bottom: 0;
+}
+
+.grayBg {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.csCard__icon {
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.csCard__name {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.csCard__about {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.csCard__detail {
+    margin-bottom: 26px;
+}
+
+.csCard__detail p {
+    font-size: 14px;
+    line-height: 162.52%;
+    font-weight: 500;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    opacity: 0.3;
+}
